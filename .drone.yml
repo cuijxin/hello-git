@@ -4,4 +4,4 @@ name: deploy
 steps:
 - name: hello-world
   image: docker
-    - echo "Hello world;Hello drone"
+    - echo "Hello world"
