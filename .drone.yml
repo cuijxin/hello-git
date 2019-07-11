@@ -14,8 +14,6 @@ steps:
       image: pulgins/docker
       settings:
           repo: registry.atomcjx.top:30579/hello-ci
-          password:
-              from_secret: REGISTRY_CRT
           atuo_tag: true
       when:
           event: tag
