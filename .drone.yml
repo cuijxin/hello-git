@@ -11,7 +11,7 @@ steps:
           event: push
     
     - name: build-image
-      image: pulgins/docker
+      image: plugins/docker
       settings:
           repo: registry.atomcjx.top:30579/hello-ci
           atuo_tag: true
