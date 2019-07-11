@@ -15,7 +15,7 @@ steps:
       settings:
           repo: cuijxin/hello-ci
           password:
-              from_secret: DOCKERHUB_SECRET
+              from_secret: DOCKER_SECRET
           atuo_tag: true
       when:
           event: tag
