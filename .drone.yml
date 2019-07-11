@@ -13,7 +13,7 @@ steps:
     - name: build-image
       image: plugins/docker
       settings:
-          repo: registry.atomcjx.top:30579/hello-ci
+          repo: cuijxin/hello-ci
           atuo_tag: true
       when:
           event: tag
