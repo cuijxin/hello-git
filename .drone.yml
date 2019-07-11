@@ -13,7 +13,7 @@ steps:
     - name: build-image
       image: pulgins/docker
       settings:
-          repo: atom.registry.atomcjx.top:30500/hello-ci
+          repo: registry.atomcjx.top:30579/hello-ci
           password:
               from_secret: REGISTRY_CRT
           atuo_tag: true
