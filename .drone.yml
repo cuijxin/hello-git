@@ -9,6 +9,7 @@ steps:
       when:
           branch: single-person
           event: push
+    
     - name: build-image
       image: pulgins/docker
       settings:
