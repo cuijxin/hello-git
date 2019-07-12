@@ -13,7 +13,7 @@ steps:
     - name: build-image
       image: plugins/docker
       settings:
-          repo: cuijxin/hello-ci
+          repo: cuijx/hello-ci
           password:
               from_secret: DOCKER_SECRET
           atuo_tag: true
